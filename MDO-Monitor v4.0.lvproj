@@ -19,6 +19,7 @@
 		<Item Name="Сплавы" Type="Folder" URL="../Сплавы">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="MDO-Monitor desktop1.vi" Type="VI" URL="../MDO-Monitor desktop1.vi"/>
 		<Item Name="MDO-Monitor main_design.vi" Type="VI" URL="../MDO-Monitor main_design.vi"/>
 		<Item Name="MDO-Toolkit_startup.ini" Type="Document" URL="../MDO-Toolkit_startup.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -53,6 +54,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="wlcomp.dll" Type="Document" URL="wlcomp.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name=" MDO monitor" Type="EXE">
